@@ -1,0 +1,15 @@
+/*Card dos produtos*/
+.container--aoba {
+  background-color: #424242;
+}
+/**/
+.productBrand {
+  color: #fff;
+  font: 20px Montserrat;
+}
+.sellingPriceContainer {
+  color: #59ff00;
+}
+.installmentContainer {
+  color: #59ff00;
+}

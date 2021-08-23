@@ -1,0 +1,93 @@
+{
+  /*
+  "sticky-layout#rp": {
+    "props": {
+      //"position": "bottom"
+    },
+    "children": ["flex-layout.row#ff"]
+  },*/
+  "flex-layout.row#ff": {
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3",
+      "flex-layout.col#deals4"
+    ]
+  },
+  "flex-layout.col#deals1": {
+    "props": {
+      "blockClass": "promos"
+    },
+    "children": ["image#deal1", "rich-text#deal1"]
+  },
+  "image#deal1": {
+    "props": {
+      "src": "https://img.icons8.com/ios-glyphs/30/000000/user-male--v1.png",
+      "maxHeight": "24px",
+      "blockClass": "img"
+    }
+  },
+  "rich-text#deal1": {
+    "props": {
+      "text": "[Entrar](/about-us)",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals2": {
+    "props": {
+      "blockClass": "promos"
+    },
+    "children": ["image#deal2", "rich-text#deal2"]
+  },
+  "image#deal2": {
+    "props": {
+      "src": "https://img.icons8.com/ios-glyphs/30/000000/trophy.png",
+      "maxHeight": "24px",
+      "blockClass": "img"
+    }
+  },
+  "rich-text#deal2": {
+    "props": {
+      "text": "[Desafios](/)",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals3": {
+    "props": {
+      "blockClass": "promos"
+    },
+    "children": ["image#deal3", "rich-text#deal3"]
+  },
+  "image#deal3": {
+    "props": {
+      "src": "https://img.icons8.com/material-outlined/50/000000/shopping-cart--v1.png",
+      "maxHeight": "24px",
+      "blockClass": "img"
+    }
+  },
+  "rich-text#deal3": {
+    "props": {
+      "text": "[Loja](https://juliodesafio3--hiringcoders2021.myvtex.com/kit-upmedal/upmedal?initialMap=c&initialQuery=kit-upmedal&map=category-1,category-1)",
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.col#deals4": {
+    "props": {
+      "blockClass": "promos"
+    },
+    "children": ["image#deal4", "rich-text#deal4"]
+  },
+  "image#deal4": {
+    "props": {
+      "src": "https://img.icons8.com/material-outlined/50/000000/whatsapp--v1.png",
+      "maxHeight": "24px",
+      "blockClass": "img"
+    }
+  },
+  "rich-text#deal4": {
+    "props": {
+      "text": "[Suporte](https://api.whatsapp.com/send?phone=5581999869186&text=Ol%C3%A1!)",
+      "blockClass": "deals"
+    }
+  }
+}

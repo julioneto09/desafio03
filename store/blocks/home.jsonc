@@ -1,0 +1,13 @@
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#submenu"
+
+      //"countdown2"
+
+      //"list-context.image-list#banner"
+      //"search-result-layout.customQuery#produtos",
+      //"tab-layout#home"
+    ]
+  }
+}

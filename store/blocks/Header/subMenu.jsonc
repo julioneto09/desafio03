@@ -1,0 +1,114 @@
+{
+  "flex-layout.row#submenu": {
+    "children": ["tab-layout#home"]
+  },
+  "tab-layout#home": {
+    "children": ["tab-list#categorias", "tab-content#categorias"]
+  },
+  "tab-list#categorias": {
+    "children": ["slider-layout#item", "list-context.image-list#banner"]
+  },
+  "slider-layout#item": {
+    "props": {
+      "blockClass": "categorias",
+      "showPaginationDots": "never",
+      "itemsPerPage": {
+        "desktop": 4
+      }
+    },
+    "children": [
+      "tab-list.item#2",
+      "tab-list.item#3",
+      "tab-list.item#4",
+      "tab-list.item#5",
+      "tab-list.item#6",
+      "tab-list.item#7"
+    ]
+  },
+  //tab-list
+  "tab-list.item#2": {
+    "props": {
+      "blockClass": "list-item",
+      "tabId": "item2",
+      "label": "CORINTHIANS",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#3": {
+    "props": {
+      "tabId": "item3",
+      "label": "PALMEIRAS"
+    }
+  },
+  "tab-list.item#4": {
+    "props": {
+      "tabId": "item4",
+      "label": "SIGNOS"
+    }
+  },
+  "tab-list.item#5": {
+    "props": {
+      "tabId": "item5",
+      "label": "BONÉS"
+    }
+  },
+  "tab-list.item#6": {
+    "props": {
+      "tabId": "item6",
+      "label": "CAMISETAS"
+    }
+  },
+  "tab-list.item#7": {
+    "props": {
+      "tabId": "item7",
+      "label": "ÓCULOS"
+    }
+  },
+  "tab-content#categorias": {
+    "children": [
+      "tab-content.item#2",
+      "tab-content.item#3",
+      "tab-content.item#4",
+      "tab-content.item#5",
+      "tab-content.item#6",
+      "tab-content.item#7"
+    ]
+  },
+
+  "tab-content.item#2": {
+    "children": ["search-result-layout.customQuery#corinthians"],
+    "props": {
+      "tabId": "item2"
+    }
+  },
+  "tab-content.item#3": {
+    "children": ["search-result-layout.customQuery#palmeiras"],
+    "props": {
+      "tabId": "item3"
+    }
+  },
+  "tab-content.item#4": {
+    "children": ["search-result-layout.customQuery#signos"],
+    "props": {
+      "tabId": "item4"
+    }
+  },
+  "tab-content.item#5": {
+    "children": ["search-result-layout.customQuery#bone"],
+    "props": {
+      "tabId": "item5"
+    }
+  },
+  "tab-content.item#6": {
+    "children": ["search-result-layout.customQuery#camisetas"],
+    "props": {
+      "tabId": "item6"
+    }
+  },
+  "tab-content.item#7": {
+    "children": ["search-result-layout.customQuery#oculos"],
+    "props": {
+      "tabId": "item7"
+    }
+  }
+}

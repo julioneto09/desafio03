@@ -1,0 +1,8 @@
+{
+  "countdown": {
+    "component": "Countdown"
+  },
+  "countdown2": {
+    "component": "Form"
+  }
+}

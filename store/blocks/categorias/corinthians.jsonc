@@ -1,0 +1,15 @@
+{
+  "search-result-layout.customQuery#corinthians": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 8,
+        "hideUnavaliableItems": true,
+        "queryField": "corinthians",
+        "mapField": "ft"
+      }
+    },
+    "blocks": ["search-result-layout.desktop#palmeiras"]
+  }
+}

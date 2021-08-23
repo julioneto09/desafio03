@@ -1,0 +1,15 @@
+{
+  "search-result-layout.customQuery#camisetas": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 8,
+        "hideUnavaliableItems": true,
+        "queryField": "camisetas",
+        "mapField": "ft"
+      }
+    },
+    "blocks": ["search-result-layout.desktop#palmeiras"]
+  }
+}

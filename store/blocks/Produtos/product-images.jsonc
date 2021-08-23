@@ -1,0 +1,10 @@
+{
+  "product-images#produtos": {
+    "props": {
+      "displayMode": "inline",
+      "showNavigationArrows": true,
+      "showPaginationDots": true,
+      "maxHeight": 300
+    }
+  }
+}

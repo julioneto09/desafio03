@@ -1,0 +1,46 @@
+{
+  "search-result-layout.desktop#palmeiras": {
+    "children": ["flex-layout.row#result"],
+    "props": {
+      "preventRouteChange": true
+    }
+  },
+  "flex-layout.row#result": {
+    "children": ["search-content#produtos"]
+  },
+  "search-content#produtos": {
+    "blocks": ["gallery#produtos", "not-found"]
+  },
+
+  "gallery#produtos": {
+    "props": {
+      "layouts": [
+        {
+          "name": "grid",
+          "component": "GridSummary",
+          "itemsPerRow": {
+            "desktop": 2
+          }
+        },
+        {
+          "name": "List",
+          "component": "ListSummary",
+          "itemsPerRow": 1
+        }
+      ],
+      "ListSummary": "product-summary.shelf#produtos",
+      "GridSummary": "product-summary.shelf#produtos"
+    }
+  },
+  "product-summary.shelf#produtos": {
+    "children": [
+      "product-summary-name",
+      "product-images#produtos",
+      "product-summary-price",
+      "add-to-cart-button#produtos"
+    ],
+    "props": {
+      "blockClass": ["aoba", "teste"]
+    }
+  }
+}

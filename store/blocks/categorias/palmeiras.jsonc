@@ -1,0 +1,15 @@
+{
+  "search-result-layout.customQuery#palmeiras": {
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 8,
+        "hideUnavaliableItems": true,
+        "queryField": "palmeiras",
+        "mapField": "ft"
+      }
+    },
+    "blocks": ["search-result-layout.desktop#palmeiras"]
+  }
+}

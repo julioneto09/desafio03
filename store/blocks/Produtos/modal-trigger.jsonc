@@ -1,0 +1,24 @@
+{
+  "modal-trigger#produtos": {
+    "children": ["rich-text#lp", "modal-layout#lp"]
+  },
+  "rich-text#lp": {
+    "props": {
+      "text": "aoba"
+    }
+  },
+  "modal-layout#lp": {
+    "children": ["video#lp"]
+  },
+  "video#lp": {
+    "props": {
+      "width": "100%",
+      "height": "600px",
+      "loop": false,
+      "autoPlay": true,
+      "muted": false,
+      "src": "https://youtu.be/vFJcuhboSf4",
+      "blockClass": "videoEl"
+    }
+  }
+}

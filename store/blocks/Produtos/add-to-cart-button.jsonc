@@ -1,0 +1,8 @@
+{
+  "add-to-cart-button#produtos": {
+    "props": {
+      "onClickBehavior": "go-to-product-page",
+      "text": "Ver detalhes"
+    }
+  }
+}
